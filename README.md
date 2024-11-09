@@ -37,8 +37,8 @@ Before getting started, make sure you have the following installed:
 -use the .env.example for refrences
 
 ## requirements and library
--<pip install>
-##.
+# pip install
+
 -Flask==3.0.3
 -flask-pymongo==2.3.0
 -werkzeug==3.0.3
