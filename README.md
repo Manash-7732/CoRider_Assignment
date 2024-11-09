@@ -29,7 +29,31 @@ Before getting started, make sure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/flask-mongodb-crud-api.git
-   cd flask-mongodb-crud-api
+   git clone https://github.com/Manash-7732/CoRider_Assignment.git
+   cd CoRider_Assignment
 
-##
+
+## how to setup env
+-use the .env.example for refrences
+
+## requirements and library
+-<pip install>
+-Flask==3.0.3
+-flask-pymongo==2.3.0
+-werkzeug==3.0.3
+-pymongo==4.10.1
+-python-dotenv==1.0.1
+
+
+## How to run Locally
+- python3 app.py
+
+## how to build docker file
+
+docker build -it <image name>:<tag-name>
+docker run -it -p 5000:5000 <image-name>
+
+
+
+
+
